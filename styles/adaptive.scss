@@ -1,0 +1,28 @@
+@media (max-width: 950px) {
+    .main {
+        &__form {
+            width: 60%;
+        }
+    }
+}
+
+@media (max-width: 630px) {
+    .main {
+        &__form {
+            width: 90%;
+        }
+        &__input {
+            font-size: 15px;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .main {
+        padding: 50px 0 0 0;
+        &__input {
+            font-size: 14px;
+            padding: 0 0 0 3px;
+        }
+    }
+}

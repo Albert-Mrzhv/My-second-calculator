@@ -1,0 +1,14 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "My Calculator",
+  "source": "index.html",
+  "scripts": {
+    "sass:run": "sass --style=expanded --watch styles:pubg"
+  },
+  "author": "Albert Mr",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.77.4"
+  }
+}
